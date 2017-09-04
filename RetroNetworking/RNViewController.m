@@ -1,19 +1,19 @@
 //
-//  ViewController.m
+//  RNViewController.m
 //  RetroNetworking
 //
 //  Created by ialmada on 8/30/17.
 //  Copyright © 2017 ivna. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RNViewController.h"
 #import "RNClient.h"
 
-@interface ViewController ()
+@interface RNViewController ()
 @property (nonatomic, strong) RNClient *client;
 @end
 
-@implementation ViewController
+@implementation RNViewController
 
 - (void)viewDidLoad {
 	[super viewDidLoad];

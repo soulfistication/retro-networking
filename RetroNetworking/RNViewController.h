@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RNViewController.h
 //  RetroNetworking
 //
 //  Created by ialmada on 8/30/17.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ViewController : UIViewController
+@interface RNViewController : UIViewController
 
 
 @end

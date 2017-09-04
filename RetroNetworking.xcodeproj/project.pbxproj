@@ -13,13 +13,13 @@
 		5E19564A13DB6B30177A3062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E19517AA64C05697CD1A64B /* AppDelegate.m */; };
 		5E19580D656A6B57B10118EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E19562FBE2578F1BB43A898 /* Assets.xcassets */; };
 		5E195A0E7A65475BD0DF15C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E195EB3A9D2148CC521967B /* LaunchScreen.storyboard */; };
-		5E195CFB64E89FB19F493442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E195E814AA8EB7EA7605CE5 /* ViewController.m */; };
+		5E195CFB64E89FB19F493442 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E195E814AA8EB7EA7605CE5 /* RNViewController.m */; };
 		5E195EF45949C13C9E160B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E19551FB3CB8A1AC11EF578 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		011F57D34F4DFA9542FAA66F /* Pods-RetroNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetroNetworking/Pods-RetroNetworking.debug.xcconfig"; sourceTree = "<group>"; };
-		5E19502816718DB5CFB138DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E19502816718DB5CFB138DA /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
 		5E19517039CC9F86A2E8B4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E19517AA64C05697CD1A64B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5E19549E884CD396E62AF21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -28,7 +28,7 @@
 		5E195ABD2EE8CD3FBA0FD232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E195B27F90B068951CDC12F /* RNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNClient.m; sourceTree = "<group>"; };
 		5E195E529E8F2D69F8772441 /* RNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNClient.h; sourceTree = "<group>"; };
-		5E195E814AA8EB7EA7605CE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E195E814AA8EB7EA7605CE5 /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
 		5E195E95CA41091FEBB46658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E195F044F83FB0ED60E42C3 /* RetroNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812001A5AB5F64BD62704B74 /* libPods-RetroNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 				5E195E95CA41091FEBB46658 /* AppDelegate.h */,
 				5E19517AA64C05697CD1A64B /* AppDelegate.m */,
 				5E19551FB3CB8A1AC11EF578 /* Main.storyboard */,
-				5E19502816718DB5CFB138DA /* ViewController.h */,
-				5E195E814AA8EB7EA7605CE5 /* ViewController.m */,
+				5E19502816718DB5CFB138DA /* RNViewController.h */,
+				5E195E814AA8EB7EA7605CE5 /* RNViewController.m */,
 				5E195E529E8F2D69F8772441 /* RNClient.h */,
 				5E195B27F90B068951CDC12F /* RNClient.m */,
 			);
@@ -224,7 +224,7 @@
 			files = (
 				5E195379180FCCBF94F05FAA /* main.m in Sources */,
 				5E19564A13DB6B30177A3062 /* AppDelegate.m in Sources */,
-				5E195CFB64E89FB19F493442 /* ViewController.m in Sources */,
+				5E195CFB64E89FB19F493442 /* RNViewController.m in Sources */,
 				5E195039D3BF99E0188316C7 /* RNClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
